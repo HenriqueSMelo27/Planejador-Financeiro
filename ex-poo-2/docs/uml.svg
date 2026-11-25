@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<svg width="1411pt" height="1333pt"
+ viewBox="0.00 0.00 1411.20 1332.70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(21.6 1311.1)">
+<title>UML</title>
+<polygon fill="white" stroke="transparent" points="-21.6,21.6 -21.6,-1311.1 1389.6,-1311.1 1389.6,21.6 -21.6,21.6"/>
+
+<g id="edge1" class="edge">
+<title>Main&#45;&gt;PlanejadorFinanceiro</title>
+<path fill="none" stroke="#475569" d="M417.23,-976.5C435.51,-976.5 454.06,-976.5 472.46,-976.5"/>
+<polygon fill="#475569" stroke="#475569" points="479.78,-976.5 472.78,-979.65 476.28,-976.5 472.78,-976.5 472.78,-976.5 472.78,-976.5 476.28,-976.5 472.78,-973.35 479.78,-976.5 479.78,-976.5"/>
+<text text-anchor="middle" x="448.5" y="-982.5" font-family="DejaVu Sans" font-size="10.00" fill="#334155">usa</text>
+<text text-anchor="middle" x="476.28" y="-979.5" font-family="DejaVu Sans" font-size="10.00" fill="#334155">1</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>PlanejadorFinanceiro&#45;&gt;CartaoCredito</title>
+<path fill="none" stroke="#475569" d="M494.4,-656.05C485.06,-641.29 479.5,-632.5 479.5,-632.5 479.5,-632.5 459.5,-600.5 459.5,-600.5 459.5,-600.5 390.77,-304.03 358.22,-163.62"/>
+<polygon fill="none" stroke="#475569" points="494.46,-656.14 499.07,-658.19 498.95,-663.24 494.34,-661.19 494.46,-656.14"/>
+<text text-anchor="middle" x="368.08" y="-173.72" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+<text text-anchor="middle" x="485.48" y="-652.1" font-family="DejaVu Sans" font-size="10.00" fill="#334155">1</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>PlanejadorFinanceiro&#45;&gt;Categoria</title>
+<path fill="none" stroke="#475569" d="M890.78,-655.97C911.09,-622.56 924.5,-600.5 924.5,-600.5 924.5,-600.5 947.96,-286.33 958.01,-151.64"/>
+<polygon fill="none" stroke="#475569" points="890.7,-656.09 890.91,-661.13 886.34,-663.27 886.13,-658.22 890.7,-656.09"/>
+<text text-anchor="middle" x="963.67" y="-164.1" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+<text text-anchor="middle" x="888.09" y="-644.86" font-family="DejaVu Sans" font-size="10.00" fill="#334155">1</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>PlanejadorFinanceiro&#45;&gt;Conta</title>
+<path fill="none" stroke="#475569" d="M501.37,-655.97C480.97,-622.56 467.5,-600.5 467.5,-600.5 467.5,-600.5 467.5,-238.5 467.5,-238.5 467.5,-238.5 511.86,-208.45 560.47,-175.52"/>
+<polygon fill="none" stroke="#475569" points="501.45,-656.1 506.03,-658.22 505.83,-663.27 501.25,-661.14 501.45,-656.1"/>
+<text text-anchor="middle" x="552.26" y="-186.75" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+<text text-anchor="middle" x="492.5" y="-651.91" font-family="DejaVu Sans" font-size="10.00" fill="#334155">1</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>PlanejadorFinanceiro&#45;&gt;MetaFinanceira</title>
+<path fill="none" stroke="#475569" d="M918.97,-724.03C981.83,-652.98 1046.71,-579.64 1096.96,-522.85"/>
+<polygon fill="none" stroke="#475569" points="918.85,-724.16 918.17,-729.16 913.29,-730.45 913.97,-725.45 918.85,-724.16"/>
+<text text-anchor="middle" x="1092.41" y="-535.69" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+<text text-anchor="middle" x="917.83" y="-712.61" font-family="DejaVu Sans" font-size="10.00" fill="#334155">1</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>PlanejadorFinanceiro&#45;&gt;Transacao</title>
+<path fill="none" stroke="#475569" d="M696.5,-654.64C696.5,-636.23 696.5,-618.07 696.5,-600.51"/>
+<polygon fill="none" stroke="#475569" points="696.5,-654.72 699.3,-658.92 696.5,-663.12 693.7,-658.92 696.5,-654.72"/>
+<text text-anchor="middle" x="703.26" y="-612.51" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+<text text-anchor="middle" x="689.74" y="-646.12" font-family="DejaVu Sans" font-size="10.00" fill="#334155">1</text>
+</g>
+
+<g id="edge9" class="edge">
+<title>Transacao&#45;&gt;CartaoCredito</title>
+<path fill="none" stroke="#475569" d="M501.09,-238.5C474.46,-213.97 448.37,-189.94 425.26,-168.65"/>
+<polygon fill="#475569" stroke="#475569" points="420.06,-163.87 427.35,-166.29 422.64,-166.24 425.21,-168.61 425.21,-168.61 425.21,-168.61 422.64,-166.24 423.08,-170.93 420.06,-163.87 420.06,-163.87"/>
+<text text-anchor="middle" x="435.31" y="-166.22" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..1</text>
+<text text-anchor="middle" x="485.84" y="-231.15" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+</g>
+
+<g id="edge8" class="edge">
+<title>Transacao&#45;&gt;Categoria</title>
+<path fill="none" stroke="#475569" d="M843.12,-238.26C866.64,-209.34 889.6,-181.12 908.99,-157.29"/>
+<polygon fill="#475569" stroke="#475569" points="913.58,-151.64 911.61,-159.06 911.37,-154.35 909.16,-157.07 909.16,-157.07 909.16,-157.07 911.37,-154.35 906.72,-155.08 913.58,-151.64 913.58,-151.64"/>
+<text text-anchor="middle" x="909.68" y="-164.65" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..1</text>
+<text text-anchor="middle" x="847.02" y="-220.24" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>Transacao&#45;&gt;Conta</title>
+<path fill="none" stroke="#475569" d="M689.89,-238.26C689.19,-219.22 688.5,-200.48 687.86,-183.1"/>
+<polygon fill="#475569" stroke="#475569" points="687.59,-175.73 691,-182.61 687.72,-179.23 687.85,-182.73 687.85,-182.73 687.85,-182.73 687.72,-179.23 684.7,-182.84 687.59,-175.73 687.59,-175.73"/>
+<text text-anchor="middle" x="694.88" y="-187.47" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..1</text>
+<text text-anchor="middle" x="682.6" y="-221.52" font-family="DejaVu Sans" font-size="10.00" fill="#334155">0..*</text>
+</g>
+
+<g id="node1" class="node">
+<title>CartaoCredito</title>
+<polygon fill="#e2e8f0" stroke="transparent" points="175.5,-134.5 175.5,-162.5 507.5,-162.5 507.5,-134.5 175.5,-134.5"/>
+<text text-anchor="start" x="298" y="-146.7" font-family="DejaVu Sans" font-weight="bold" font-size="11.00">CartaoCredito</text>
+<text text-anchor="start" x="183.5" y="-117.7" font-family="DejaVu Sans" font-size="11.00">&#45; id: int {readOnly}</text>
+<text text-anchor="start" x="183.5" y="-105.7" font-family="DejaVu Sans" font-size="11.00">&#45; nome: String {readOnly}</text>
+<text text-anchor="start" x="183.5" y="-93.7" font-family="DejaVu Sans" font-size="11.00">&#45; limite: BigDecimal {readOnly}</text>
+<text text-anchor="start" x="183.5" y="-65.7" font-family="DejaVu Sans" font-size="11.00">+ CartaoCredito(id: int, nome: String, limite: BigDecimal)</text>
+<text text-anchor="start" x="183.5" y="-53.7" font-family="DejaVu Sans" font-size="11.00">+ obterId(): int</text>
+<text text-anchor="start" x="183.5" y="-41.7" font-family="DejaVu Sans" font-size="11.00">+ obterNome(): String</text>
+<text text-anchor="start" x="183.5" y="-29.7" font-family="DejaVu Sans" font-size="11.00">+ obterLimite(): BigDecimal</text>
+<polygon fill="#64748b" stroke="#64748b" points="174.5,-134.5 174.5,-134.5 508.5,-134.5 508.5,-134.5 174.5,-134.5"/>
+<polygon fill="#64748b" stroke="#64748b" points="174.5,-82.5 174.5,-82.5 508.5,-82.5 508.5,-82.5 174.5,-82.5"/>
+<polygon fill="none" stroke="#64748b" points="174.5,-17.5 174.5,-163.5 508.5,-163.5 508.5,-17.5 174.5,-17.5"/>
+</g>
+
+<g id="node2" class="node">
+<title>Categoria</title>
+<polygon fill="#e2e8f0" stroke="transparent" points="862.5,-122.5 862.5,-150.5 1063.5,-150.5 1063.5,-122.5 862.5,-122.5"/>
+<text text-anchor="start" x="932.5" y="-134.7" font-family="DejaVu Sans" font-weight="bold" font-size="11.00">Categoria</text>
+<text text-anchor="start" x="870.5" y="-105.7" font-family="DejaVu Sans" font-size="11.00">&#45; id: int {readOnly}</text>
+<text text-anchor="start" x="870.5" y="-93.7" font-family="DejaVu Sans" font-size="11.00">&#45; nome: String {readOnly}</text>
+<text text-anchor="start" x="870.5" y="-65.7" font-family="DejaVu Sans" font-size="11.00">+ Categoria(id: int, nome: String)</text>
+<text text-anchor="start" x="870.5" y="-53.7" font-family="DejaVu Sans" font-size="11.00">+ obterId(): int</text>
+<text text-anchor="start" x="870.5" y="-41.7" font-family="DejaVu Sans" font-size="11.00">+ obterNome(): String</text>
+<polygon fill="#64748b" stroke="#64748b" points="861.5,-122.5 861.5,-122.5 1064.5,-122.5 1064.5,-122.5 861.5,-122.5"/>
+<polygon fill="#64748b" stroke="#64748b" points="861.5,-82.5 861.5,-82.5 1064.5,-82.5 1064.5,-82.5 861.5,-82.5"/>
+<polygon fill="none" stroke="#64748b" points="861,-29.5 861,-151.5 1064,-151.5 1064,-29.5 861,-29.5"/>
+</g>
+
+<g id="node3" class="node">
+<title>Conta</title>
+<polygon fill="#e2e8f0" stroke="transparent" points="541.5,-146.5 541.5,-174.5 827.5,-174.5 827.5,-146.5 541.5,-146.5"/>
+<text text-anchor="start" x="666" y="-158.7" font-family="DejaVu Sans" font-weight="bold" font-size="11.00">Conta</text>
+<text text-anchor="start" x="549.5" y="-129.7" font-family="DejaVu Sans" font-size="11.00">&#45; id: int {readOnly}</text>
+<text text-anchor="start" x="549.5" y="-117.7" font-family="DejaVu Sans" font-size="11.00">&#45; nome: String {readOnly}</text>
+<text text-anchor="start" x="549.5" y="-105.7" font-family="DejaVu Sans" font-size="11.00">&#45; saldo: BigDecimal</text>
+<text text-anchor="start" x="549.5" y="-77.7" font-family="DejaVu Sans" font-size="11.00">+ Conta(id: int, nome: String, saldo: BigDecimal)</text>
+<text text-anchor="start" x="549.5" y="-65.7" font-family="DejaVu Sans" font-size="11.00">+ obterId(): int</text>
+<text text-anchor="start" x="549.5" y="-53.7" font-family="DejaVu Sans" font-size="11.00">+ obterNome(): String</text>
+<text text-anchor="start" x="549.5" y="-41.7" font-family="DejaVu Sans" font-size="11.00">+ obterSaldo(): BigDecimal</text>
+<text text-anchor="start" x="549.5" y="-29.7" font-family="DejaVu Sans" font-size="11.00">+ depositar(valor: BigDecimal): void</text>
+<text text-anchor="start" x="549.5" y="-17.7" font-family="DejaVu Sans" font-size="11.00">+ retirar(valor: BigDecimal): void</text>
+<polygon fill="#64748b" stroke="#64748b" points="540.5,-146.5 540.5,-146.5 828.5,-146.5 828.5,-146.5 540.5,-146.5"/>
+<polygon fill="#64748b" stroke="#64748b" points="540.5,-94.5 540.5,-94.5 828.5,-94.5 828.5,-94.5 540.5,-94.5"/>
+<polygon fill="none" stroke="#64748b" points="540.5,-5.5 540.5,-175.5 828.5,-175.5 828.5,-5.5 540.5,-5.5"/>
+</g>
+
+<g id="node4" class="node">
+<title>Main</title>
+<polygon fill="#e2e8f0" stroke="transparent" points="1.5,-1152.5 1.5,-1180.5 416.5,-1180.5 416.5,-1152.5 1.5,-1152.5"/>
+<text text-anchor="start" x="193.5" y="-1164.7" font-family="DejaVu Sans" font-weight="bold" font-size="11.00">Main</text>
+<text text-anchor="start" x="9.5" y="-1135.7" font-family="DejaVu Sans" font-size="11.00">&#45; FORMATO_DATA: DateTimeFormatter {static} {readOnly}</text>
+<text text-anchor="start" x="9.5" y="-1123.7" font-family="DejaVu Sans" font-size="11.00">&#45; FORMATO_MES: DateTimeFormatter {static} {readOnly}</text>
+<text text-anchor="start" x="9.5" y="-1111.7" font-family="DejaVu Sans" font-size="11.00">&#45; leitor: Scanner {readOnly}</text>
+<text text-anchor="start" x="9.5" y="-1099.7" font-family="DejaVu Sans" font-size="11.00">&#45; planejador: PlanejadorFinanceiro {readOnly}</text>
+<text text-anchor="start" x="9.5" y="-1071.7" font-family="DejaVu Sans" font-size="11.00">&#45; Main(leitor: Scanner, planejador: PlanejadorFinanceiro)</text>
+<text text-anchor="start" x="9.5" y="-1059.7" font-family="DejaVu Sans" font-size="11.00">+ main(argumentos: String[]): void {static}</text>
+<text text-anchor="start" x="9.5" y="-1047.7" font-family="DejaVu Sans" font-size="11.00">&#45; executar(): void</text>
+<text text-anchor="start" x="9.5" y="-1035.7" font-family="DejaVu Sans" font-size="11.00">&#45; menuContas(): void</text>
+<text text-anchor="start" x="9.5" y="-1023.7" font-family="DejaVu Sans" font-size="11.00">&#45; menuCategorias(): void</text>
+<text text-anchor="start" x="9.5" y="-1011.7" font-family="DejaVu Sans" font-size="11.00">&#45; menuCartoes(): void</text>
+<text text-anchor="start" x="9.5" y="-999.7" font-family="DejaVu Sans" font-size="11.00">&#45; menuFaturas(): void</text>
+<text text-anchor="start" x="9.5" y="-987.7" font-family="DejaVu Sans" font-size="11.00">&#45; menuMetas(): void</text>
+<text text-anchor="start" x="9.5" y="-975.7" font-family="DejaVu Sans" font-size="11.00">&#45; registrarMovimentacao(tipo: String): void</text>
+<text text-anchor="start" x="9.5" y="-963.7" font-family="DejaVu Sans" font-size="11.00">&#45; registrarCompra(): void</text>
+<text text-anchor="start" x="9.5" y="-951.7" font-family="DejaVu Sans" font-size="11.00">&#45; listarContas(): boolean</text>
+<text text-anchor="start" x="9.5" y="-939.7" font-family="DejaVu Sans" font-size="11.00">&#45; listarCategorias(): boolean</text>
+<text text-anchor="start" x="9.5" y="-927.7" font-family="DejaVu Sans" font-size="11.00">&#45; listarCartoes(): boolean</text>
+<text text-anchor="start" x="9.5" y="-915.7" font-family="DejaVu Sans" font-size="11.00">&#45; listarMetas(): boolean</text>
+<text text-anchor="start" x="9.5" y="-903.7" font-family="DejaVu Sans" font-size="11.00">&#45; listarTransacoes(): void</text>
+<text text-anchor="start" x="9.5" y="-891.7" font-family="DejaVu Sans" font-size="11.00">&#45; exibirTransacao(transacao: Transacao): void</text>
+<text text-anchor="start" x="9.5" y="-879.7" font-family="DejaVu Sans" font-size="11.00">&#45; exibirFatura(idCartao: int, mes: YearMonth): void</text>
+<text text-anchor="start" x="9.5" y="-867.7" font-family="DejaVu Sans" font-size="11.00">&#45; exibirResumo(): void</text>
+<text text-anchor="start" x="9.5" y="-855.7" font-family="DejaVu Sans" font-size="11.00">&#45; informarRegistros(temRegistros: boolean, mensagem: String): boolean</text>
+<text text-anchor="start" x="9.5" y="-843.7" font-family="DejaVu Sans" font-size="11.00">&#45; escolherId(temRegistros: boolean, entidade: String): int</text>
+<text text-anchor="start" x="9.5" y="-831.7" font-family="DejaVu Sans" font-size="11.00">&#45; lerTexto(mensagem: String): String</text>
+<text text-anchor="start" x="9.5" y="-819.7" font-family="DejaVu Sans" font-size="11.00">&#45; lerValor(mensagem: String): BigDecimal</text>
+<text text-anchor="start" x="9.5" y="-807.7" font-family="DejaVu Sans" font-size="11.00">&#45; lerData(): LocalDate</text>
+<text text-anchor="start" x="9.5" y="-795.7" font-family="DejaVu Sans" font-size="11.00">&#45; lerMes(): YearMonth</text>
+<text text-anchor="start" x="9.5" y="-783.7" font-family="DejaVu Sans" font-size="11.00">&#45; moeda(valor: BigDecimal): String</text>
+<polygon fill="#64748b" stroke="#64748b" points="0.5,-1152.5 0.5,-1152.5 417.5,-1152.5 417.5,-1152.5 0.5,-1152.5"/>
+<polygon fill="#64748b" stroke="#64748b" points="0.5,-1088.5 0.5,-1088.5 417.5,-1088.5 417.5,-1088.5 0.5,-1088.5"/>
+<polygon fill="none" stroke="#64748b" points="0,-771.5 0,-1181.5 417,-1181.5 417,-771.5 0,-771.5"/>
+</g>
+
+<g id="node5" class="node">
+<title>MetaFinanceira</title>
+<polygon fill="#e2e8f0" stroke="transparent" points="1008.5,-493.5 1008.5,-521.5 1367.5,-521.5 1367.5,-493.5 1008.5,-493.5"/>
+<text text-anchor="start" x="1139.5" y="-505.7" font-family="DejaVu Sans" font-weight="bold" font-size="11.00">MetaFinanceira</text>
+<text text-anchor="start" x="1016.5" y="-476.7" font-family="DejaVu Sans" font-size="11.00">&#45; id: int {readOnly}</text>
+<text text-anchor="start" x="1016.5" y="-464.7" font-family="DejaVu Sans" font-size="11.00">&#45; nome: String {readOnly}</text>
+<text text-anchor="start" x="1016.5" y="-452.7" font-family="DejaVu Sans" font-size="11.00">&#45; valorAlvo: BigDecimal {readOnly}</text>
+<text text-anchor="start" x="1016.5" y="-440.7" font-family="DejaVu Sans" font-size="11.00">&#45; valorAcumulado: BigDecimal</text>
+<text text-anchor="start" x="1016.5" y="-412.7" font-family="DejaVu Sans" font-size="11.00">+ MetaFinanceira(id: int, nome: String, valorAlvo: BigDecimal,</text>
+<text text-anchor="start" x="1016.5" y="-400.7" font-family="DejaVu Sans" font-size="11.00"> &#160;&#160;&#160;valorAcumulado: BigDecimal)</text>
+<text text-anchor="start" x="1016.5" y="-388.7" font-family="DejaVu Sans" font-size="11.00">+ obterId(): int</text>
+<text text-anchor="start" x="1016.5" y="-376.7" font-family="DejaVu Sans" font-size="11.00">+ obterNome(): String</text>
+<text text-anchor="start" x="1016.5" y="-364.7" font-family="DejaVu Sans" font-size="11.00">+ obterValorAlvo(): BigDecimal</text>
+<text text-anchor="start" x="1016.5" y="-352.7" font-family="DejaVu Sans" font-size="11.00">+ obterValorAcumulado(): BigDecimal</text>
+<text text-anchor="start" x="1016.5" y="-340.7" font-family="DejaVu Sans" font-size="11.00">+ adicionarValor(valor: BigDecimal): void</text>
+<text text-anchor="start" x="1016.5" y="-328.7" font-family="DejaVu Sans" font-size="11.00">+ calcularPercentual(): BigDecimal</text>
+<polygon fill="#64748b" stroke="#64748b" points="1007.5,-493.5 1007.5,-493.5 1368.5,-493.5 1368.5,-493.5 1007.5,-493.5"/>
+<polygon fill="#64748b" stroke="#64748b" points="1007.5,-429.5 1007.5,-429.5 1368.5,-429.5 1368.5,-429.5 1007.5,-429.5"/>
+<polygon fill="none" stroke="#64748b" points="1007,-316.5 1007,-522.5 1368,-522.5 1368,-316.5 1007,-316.5"/>
+</g>
+
+<g id="node6" class="node">
+<title>PlanejadorFinanceiro</title>
+<polygon fill="#e2e8f0" stroke="transparent" points="481.5,-1260.5 481.5,-1288.5 912.5,-1288.5 912.5,-1260.5 481.5,-1260.5"/>
+<text text-anchor="start" x="631.5" y="-1272.7" font-family="DejaVu Sans" font-weight="bold" font-size="11.00">PlanejadorFinanceiro</text>
+<text text-anchor="start" x="489.5" y="-1243.7" font-family="DejaVu Sans" font-size="11.00">&#45; contas: ArrayList&lt;Conta&gt; {readOnly}</text>
+<text text-anchor="start" x="489.5" y="-1231.7" font-family="DejaVu Sans" font-size="11.00">&#45; categorias: ArrayList&lt;Categoria&gt; {readOnly}</text>
+<text text-anchor="start" x="489.5" y="-1219.7" font-family="DejaVu Sans" font-size="11.00">&#45; transacoes: ArrayList&lt;Transacao&gt; {readOnly}</text>
+<text text-anchor="start" x="489.5" y="-1207.7" font-family="DejaVu Sans" font-size="11.00">&#45; cartoes: ArrayList&lt;CartaoCredito&gt; {readOnly}</text>
+<text text-anchor="start" x="489.5" y="-1195.7" font-family="DejaVu Sans" font-size="11.00">&#45; metas: ArrayList&lt;MetaFinanceira&gt; {readOnly}</text>
+<text text-anchor="start" x="489.5" y="-1183.7" font-family="DejaVu Sans" font-size="11.00">&#45; proximoId: long</text>
+<text text-anchor="start" x="489.5" y="-1155.7" font-family="DejaVu Sans" font-size="11.00">+ PlanejadorFinanceiro()</text>
+<text text-anchor="start" x="489.5" y="-1143.7" font-family="DejaVu Sans" font-size="11.00">+ cadastrarConta(nome: String, saldoInicial: BigDecimal): void</text>
+<text text-anchor="start" x="489.5" y="-1131.7" font-family="DejaVu Sans" font-size="11.00">+ cadastrarCategoria(nome: String): void</text>
+<text text-anchor="start" x="489.5" y="-1119.7" font-family="DejaVu Sans" font-size="11.00">+ cadastrarCartao(nome: String, limite: BigDecimal): void</text>
+<text text-anchor="start" x="489.5" y="-1107.7" font-family="DejaVu Sans" font-size="11.00">+ cadastrarMeta(nome: String, valorAlvo: BigDecimal): void</text>
+<text text-anchor="start" x="489.5" y="-1095.7" font-family="DejaVu Sans" font-size="11.00">+ contribuirParaMeta(idMeta: int, valor: BigDecimal): void</text>
+<text text-anchor="start" x="489.5" y="-1083.7" font-family="DejaVu Sans" font-size="11.00">+ registrarMovimentacao(tipo: String, descricao: String, valor: BigDecimal,</text>
+<text text-anchor="start" x="489.5" y="-1071.7" font-family="DejaVu Sans" font-size="11.00"> &#160;&#160;&#160;data: LocalDate, idCategoria: int, idConta: int): void</text>
+<text text-anchor="start" x="489.5" y="-1059.7" font-family="DejaVu Sans" font-size="11.00">+ registrarCompra(descricao: String, valor: BigDecimal, data: LocalDate,</text>
+<text text-anchor="start" x="489.5" y="-1047.7" font-family="DejaVu Sans" font-size="11.00"> &#160;&#160;&#160;idCategoria: int, idCartao: int, mes: YearMonth): void</text>
+<text text-anchor="start" x="489.5" y="-1035.7" font-family="DejaVu Sans" font-size="11.00">+ pagarFatura(idCartao: int, mes: YearMonth, idConta: int): void</text>
+<text text-anchor="start" x="489.5" y="-1023.7" font-family="DejaVu Sans" font-size="11.00">+ listarContas(): ArrayList&lt;Conta&gt;</text>
+<text text-anchor="start" x="489.5" y="-1011.7" font-family="DejaVu Sans" font-size="11.00">+ listarCategorias(): ArrayList&lt;Categoria&gt;</text>
+<text text-anchor="start" x="489.5" y="-999.7" font-family="DejaVu Sans" font-size="11.00">+ listarTransacoes(): ArrayList&lt;Transacao&gt;</text>
+<text text-anchor="start" x="489.5" y="-987.7" font-family="DejaVu Sans" font-size="11.00">+ listarCartoes(): ArrayList&lt;CartaoCredito&gt;</text>
+<text text-anchor="start" x="489.5" y="-975.7" font-family="DejaVu Sans" font-size="11.00">+ listarMetas(): ArrayList&lt;MetaFinanceira&gt;</text>
+<text text-anchor="start" x="489.5" y="-963.7" font-family="DejaVu Sans" font-size="11.00">+ comprasDaFatura(idCartao: int, mes: YearMonth): ArrayList&lt;Transacao&gt;</text>
+<text text-anchor="start" x="489.5" y="-951.7" font-family="DejaVu Sans" font-size="11.00">+ totalComprasDaFatura(idCartao: int, mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-939.7" font-family="DejaVu Sans" font-size="11.00">+ totalPagoDaFatura(idCartao: int, mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-927.7" font-family="DejaVu Sans" font-size="11.00">+ pendenciaDaFatura(idCartao: int, mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-915.7" font-family="DejaVu Sans" font-size="11.00">+ limiteDisponivel(idCartao: int): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-903.7" font-family="DejaVu Sans" font-size="11.00">+ totalReceitas(mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-891.7" font-family="DejaVu Sans" font-size="11.00">+ totalDespesas(mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-879.7" font-family="DejaVu Sans" font-size="11.00">+ totalComprasNoMes(mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-867.7" font-family="DejaVu Sans" font-size="11.00">+ resultadoFinanceiro(mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-855.7" font-family="DejaVu Sans" font-size="11.00">+ totalSaldos(): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-843.7" font-family="DejaVu Sans" font-size="11.00">+ totalPendenteNoMes(mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-831.7" font-family="DejaVu Sans" font-size="11.00">&#45; somarMovimentacoes(tipo: String, cartao: CartaoCredito,</text>
+<text text-anchor="start" x="489.5" y="-819.7" font-family="DejaVu Sans" font-size="11.00"> &#160;&#160;&#160;mes: YearMonth): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-807.7" font-family="DejaVu Sans" font-size="11.00">&#45; registrarTransacao(transacao: Transacao): void</text>
+<text text-anchor="start" x="489.5" y="-795.7" font-family="DejaVu Sans" font-size="11.00">&#45; validarTransacao(transacao: Transacao): void</text>
+<text text-anchor="start" x="489.5" y="-783.7" font-family="DejaVu Sans" font-size="11.00">&#45; validarVinculos(transacao: Transacao, temConta: boolean,</text>
+<text text-anchor="start" x="489.5" y="-771.7" font-family="DejaVu Sans" font-size="11.00"> &#160;&#160;&#160;temCategoria: boolean, temCartao: boolean): void</text>
+<text text-anchor="start" x="489.5" y="-759.7" font-family="DejaVu Sans" font-size="11.00">&#45; validarSaldo(transacao: Transacao): void</text>
+<text text-anchor="start" x="489.5" y="-747.7" font-family="DejaVu Sans" font-size="11.00">&#45; buscarConta(id: int): Conta</text>
+<text text-anchor="start" x="489.5" y="-735.7" font-family="DejaVu Sans" font-size="11.00">&#45; buscarCategoria(id: int): Categoria</text>
+<text text-anchor="start" x="489.5" y="-723.7" font-family="DejaVu Sans" font-size="11.00">&#45; buscarCartao(id: int): CartaoCredito</text>
+<text text-anchor="start" x="489.5" y="-711.7" font-family="DejaVu Sans" font-size="11.00">&#45; buscarMeta(id: int): MetaFinanceira</text>
+<text text-anchor="start" x="489.5" y="-699.7" font-family="DejaVu Sans" font-size="11.00">&#45; validarTexto(texto: String): String</text>
+<text text-anchor="start" x="489.5" y="-687.7" font-family="DejaVu Sans" font-size="11.00">&#45; validarValor(valor: BigDecimal, aceitaZero: boolean): BigDecimal</text>
+<text text-anchor="start" x="489.5" y="-675.7" font-family="DejaVu Sans" font-size="11.00">&#45; gerarId(): int</text>
+<polygon fill="#64748b" stroke="#64748b" points="480.5,-1260.5 480.5,-1260.5 913.5,-1260.5 913.5,-1260.5 480.5,-1260.5"/>
+<polygon fill="#64748b" stroke="#64748b" points="480.5,-1172.5 480.5,-1172.5 913.5,-1172.5 913.5,-1172.5 480.5,-1172.5"/>
+<polygon fill="none" stroke="#64748b" points="480,-663.5 480,-1289.5 913,-1289.5 913,-663.5 480,-663.5"/>
+</g>
+
+<g id="node7" class="node">
+<title>Transacao</title>
+<polygon fill="#e2e8f0" stroke="transparent" points="485.5,-571.5 485.5,-599.5 908.5,-599.5 908.5,-571.5 485.5,-571.5"/>
+<text text-anchor="start" x="665.5" y="-583.7" font-family="DejaVu Sans" font-weight="bold" font-size="11.00">Transacao</text>
+<text text-anchor="start" x="493.5" y="-554.7" font-family="DejaVu Sans" font-size="11.00">+ RECEITA: String {static} {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-542.7" font-family="DejaVu Sans" font-size="11.00">+ DESPESA: String {static} {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-530.7" font-family="DejaVu Sans" font-size="11.00">+ COMPRA_CARTAO: String {static} {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-518.7" font-family="DejaVu Sans" font-size="11.00">+ PAGAMENTO_FATURA: String {static} {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-506.7" font-family="DejaVu Sans" font-size="11.00">&#45; id: int {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-494.7" font-family="DejaVu Sans" font-size="11.00">&#45; descricao: String {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-482.7" font-family="DejaVu Sans" font-size="11.00">&#45; valor: BigDecimal {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-470.7" font-family="DejaVu Sans" font-size="11.00">&#45; data: LocalDate {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-458.7" font-family="DejaVu Sans" font-size="11.00">&#45; tipo: String {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-446.7" font-family="DejaVu Sans" font-size="11.00">&#45; categoria: Categoria {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-434.7" font-family="DejaVu Sans" font-size="11.00">&#45; conta: Conta {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-422.7" font-family="DejaVu Sans" font-size="11.00">&#45; cartao: CartaoCredito {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-410.7" font-family="DejaVu Sans" font-size="11.00">&#45; mesReferencia: YearMonth {readOnly}</text>
+<text text-anchor="start" x="493.5" y="-382.7" font-family="DejaVu Sans" font-size="11.00">+ Transacao(id: int, descricao: String, valor: BigDecimal, data: LocalDate,</text>
+<text text-anchor="start" x="493.5" y="-370.7" font-family="DejaVu Sans" font-size="11.00"> &#160;&#160;&#160;tipo: String, categoria: Categoria, conta: Conta, cartao: CartaoCredito,</text>
+<text text-anchor="start" x="493.5" y="-358.7" font-family="DejaVu Sans" font-size="11.00"> &#160;&#160;&#160;mesReferencia: YearMonth)</text>
+<text text-anchor="start" x="493.5" y="-346.7" font-family="DejaVu Sans" font-size="11.00">+ obterId(): int</text>
+<text text-anchor="start" x="493.5" y="-334.7" font-family="DejaVu Sans" font-size="11.00">+ obterDescricao(): String</text>
+<text text-anchor="start" x="493.5" y="-322.7" font-family="DejaVu Sans" font-size="11.00">+ obterValor(): BigDecimal</text>
+<text text-anchor="start" x="493.5" y="-310.7" font-family="DejaVu Sans" font-size="11.00">+ obterData(): LocalDate</text>
+<text text-anchor="start" x="493.5" y="-298.7" font-family="DejaVu Sans" font-size="11.00">+ obterTipo(): String</text>
+<text text-anchor="start" x="493.5" y="-286.7" font-family="DejaVu Sans" font-size="11.00">+ obterCategoria(): Categoria</text>
+<text text-anchor="start" x="493.5" y="-274.7" font-family="DejaVu Sans" font-size="11.00">+ obterConta(): Conta</text>
+<text text-anchor="start" x="493.5" y="-262.7" font-family="DejaVu Sans" font-size="11.00">+ obterCartao(): CartaoCredito</text>
+<text text-anchor="start" x="493.5" y="-250.7" font-family="DejaVu Sans" font-size="11.00">+ obterMesReferencia(): YearMonth</text>
+<polygon fill="#64748b" stroke="#64748b" points="484.5,-571.5 484.5,-571.5 909.5,-571.5 909.5,-571.5 484.5,-571.5"/>
+<polygon fill="#64748b" stroke="#64748b" points="484.5,-399.5 484.5,-399.5 909.5,-399.5 909.5,-399.5 484.5,-399.5"/>
+<polygon fill="none" stroke="#64748b" points="484,-238.5 484,-600.5 909,-600.5 909,-238.5 484,-238.5"/>
+</g>
+</g>
+</svg>

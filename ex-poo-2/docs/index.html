@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejador Financeiro Pessoal - Documentação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p>Trabalho de Programação Orientada a Objetos</p>
+            <h1>Planejador Financeiro Pessoal</h1>
+            <p>Documentação do sistema</p>
+        </div>
+    </header>
+    <nav class="container" aria-label="Seções da documentação">
+        <a href="#projeto">Projeto</a>
+        <a href="#requisitos">Requisitos</a>
+        <a href="#regras">Regras de negócio</a>
+        <a href="#uml">Diagrama UML</a>
+        <a href="#execucao">Execução</a>
+    </nav>
+    <main class="container">
+        <section id="projeto">
+            <h2>1. Tema escolhido</h2>
+            <p>Planejamento e controle de finanças pessoais.</p>
+            <h2>2. Descrição do problema</h2>
+            <p>Organizar receitas, despesas e compras no cartão de crédito pode ser difícil quando as informações ficam espalhadas. Sem um controle das movimentações, fica mais difícil acompanhar o saldo disponível, pagar faturas e planejar objetivos financeiros.</p>
+            <h2>3. Objetivo do sistema</h2>
+            <p>Desenvolver um sistema em Java que permita cadastrar contas, categorias, cartões e metas financeiras, registrar movimentações e consultar a situação financeira pelo terminal. A proposta é facilitar o controle dos gastos e o acompanhamento das finanças pessoais.</p>
+        </section>
+        <section id="requisitos">
+            <h2>4. Requisitos funcionais</h2>
+            <div class="table-scroll">
+                <table>
+                    <thead><tr><th scope="col">Código</th><th scope="col">Requisito</th><th scope="col">Descrição</th><th scope="col">Situação</th></tr></thead>
+                    <tbody>
+                        <tr><td>RF01</td><td>Gerenciar contas</td><td>Cadastrar contas com nome e saldo inicial e consultar seus saldos.</td><td>Implementado</td></tr>
+                        <tr><td>RF02</td><td>Registrar receitas e despesas</td><td>Registrar movimentações com descrição, valor, data, categoria e conta, além de listar os registros.</td><td>Implementado</td></tr>
+                        <tr><td>RF03</td><td>Gerenciar categorias</td><td>Cadastrar e listar categorias para organizar as movimentações.</td><td>Implementado</td></tr>
+                        <tr><td>RF04</td><td>Gerenciar cartões</td><td>Cadastrar cartões, consultar limites e registrar compras vinculadas ao mês de referência da fatura.</td><td>Implementado</td></tr>
+                        <tr><td>RF05</td><td>Gerenciar faturas</td><td>Consultar compras, total, valor pago e pendência por cartão e mês, e pagar o valor pendente com uma conta cadastrada.</td><td>Implementado</td></tr>
+                        <tr><td>RF06</td><td>Gerenciar metas</td><td>Cadastrar metas com valor-alvo, adicionar contribuições e consultar o percentual acumulado.</td><td>Implementado</td></tr>
+                        <tr><td>RF07</td><td>Consultar resumo financeiro</td><td>Exibir receitas, despesas, compras no cartão, resultado do mês, saldos atuais e faturas pendentes do mês.</td><td>Implementado</td></tr>
+                        <tr><td>RF08</td><td>Persistir dados</td><td>Salvar os cadastros e movimentações em arquivos e recuperá-los ao iniciar o programa novamente.</td><td class="pendente">Pendente</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="nota">Na versão atual, os registros são armazenados em listas na memória. Ao fechar o programa, as informações são perdidas. A leitura e a escrita em arquivos ainda precisam ser implementadas.</p>
+        </section>
+        <section id="regras">
+            <h2>5. Regras de negócio</h2>
+            <ul>
+                <li>Receitas aumentam o saldo da conta e despesas diretas diminuem o saldo.</li>
+                <li>Compras no cartão diminuem o limite disponível, mas não alteram imediatamente o saldo da conta.</li>
+                <li>Compras no cartão entram nas despesas do mês de referência informado.</li>
+                <li>O pagamento integral da pendência da fatura diminui o saldo da conta e libera o limite do cartão, sem registrar uma segunda despesa.</li>
+                <li>O sistema não aceita pagamento de fatura sem valor pendente, despesas acima do saldo ou compras acima do limite.</li>
+                <li>As movimentações e contribuições devem ter valor positivo, com até duas casas decimais. O saldo inicial pode ser zero.</li>
+                <li>As contribuições para metas atualizam o progresso sem alterar o saldo das contas.</li>
+            </ul>
+        </section>
+        <section id="uml">
+            <h2>6. Diagrama de classes UML</h2>
+            <p>O sistema possui sete classes. A classe <code>Main</code> controla o menu e utiliza o <code>PlanejadorFinanceiro</code>, que mantém as listas de contas, categorias, transações, cartões e metas. Uma transação pode estar vinculada a uma conta, uma categoria ou um cartão, conforme seu tipo.</p>
+            <p>O diagrama apresenta os atributos, construtores, métodos e relacionamentos da implementação atual. O sinal <strong>+</strong> indica acesso público e o sinal <strong>−</strong> indica acesso privado. As multiplicidades indicam quantos objetos podem participar de cada relacionamento.</p>
+            <p><a href="uml.svg" target="_blank" rel="noopener">Abrir diagrama em tamanho original (SVG)</a></p>
+            <figure>
+                <div class="diagram-scroll"><img src="uml.svg" alt="Diagrama UML com Main, PlanejadorFinanceiro, Conta, Categoria, Transacao, CartaoCredito e MetaFinanceira, seus atributos, métodos e relacionamentos."></div>
+                <figcaption>Diagrama de classes da versão atual do Planejador Financeiro Pessoal.</figcaption>
+            </figure>
+            <h3>Conceitos de orientação a objetos</h3>
+            <p>O código utiliza classes e objetos para representar as informações do sistema. O encapsulamento é aplicado por meio de atributos privados e métodos de acesso. A associação entre objetos aparece nos vínculos das transações com as entidades financeiras. A separação de responsabilidades evita concentrar todas as regras de negócio na classe <code>Main</code>.</p>
+        </section>
+        <section id="execucao">
+            <h2>7. Tecnologias e execução</h2>
+            <p>O programa utiliza Java 21, sem frameworks ou dependências externas. A interface funciona no terminal e a documentação utiliza HTML e CSS.</p>
+            <p>Com o JDK 21 instalado e configurado no PATH, execute os comandos abaixo na raiz do projeto:</p>
+            <pre><code>javac -encoding UTF-8 -d out src/*.java
+java -cp out Main</code></pre>
+            <p>Informe as datas no formato DD/MM/AAAA, os meses no formato MM/AAAA e valores como 10,50 ou 10.50. Para encerrar, utilize a opção 0 do menu principal.</p>
+        </section>
+    </main>
+    <footer><div class="container">Planejador Financeiro Pessoal · Documentação acadêmica</div></footer>
+</body>
+</html>
